@@ -14,7 +14,8 @@ const App = () => {
   const [searchTerm, setSearchTerm] = useState("");
 
   const searchMovies = async (title) => {
-    const response = await fetch(`${API_URL}&s=${title}`);
+    //`${API_URL}&s=${title}`
+    const response = await fetch("http://www.omdbapi.com?apikey=f953d2be&s=thor");
     const data = await response.json();
 
     console.log(data.Search);
