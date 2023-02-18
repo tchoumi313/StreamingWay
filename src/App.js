@@ -29,9 +29,10 @@ const App = () => {
 
   return (
     <>
-      <MyNavbar />
       <div className="app">
-        <h1>StreamingWay</h1>
+        <div>
+          <h1>StreamingWay</h1>
+        </div>
 
         <div className="search">
           <input
