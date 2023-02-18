@@ -8,7 +8,7 @@ import MovieCard from "./MovieCard";
 import MyNavbar from "./Navbar";
 //f953d2be
 
-const API_URL = "http://www.omdbapi.com?apikey=f953d2be";
+const API_URL = "https://www.omdbapi.com?apikey=f953d2be";
 
 const App = () => {
   const [movies, setMovies] = useState([]);
