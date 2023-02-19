@@ -5,8 +5,7 @@ import "./App.css";
 //import "./assets/css/bootstrap-reboot.min.css";
 import searchIcoN from "./search.svg";
 import MovieCard from "./MovieCard";
-import MyNavbar from "./Navbar";
-//f953d2be
+
 
 const API_URL = "https://www.omdbapi.com?apikey=f953d2be";
 
